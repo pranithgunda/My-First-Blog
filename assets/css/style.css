@@ -1,0 +1,23 @@
+header{
+    height:5vw;
+    width:100%;
+    border-width: thick;
+    border-bottom-style: double;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    width:49%;
+}
+#rightsection{
+    width:49%;
+    border-width:thick;
+    border-right-style:double;
+}
+img{
+    height:600px;
+    width:600px;
+    object-fit: contain;
+}
