@@ -18,7 +18,7 @@ Application landing page consists of fields to input user information and the bl
 
 ## Link to deployed site
 
-coming soon
+https://pranithgunda.github.io/My-First-Blog/
 
 
 
