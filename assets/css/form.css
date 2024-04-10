@@ -1,0 +1,25 @@
+#username, #title{
+    display:block;
+    width:100%;
+    margin-top:5px;
+    border-radius: 8px;
+
+}
+#content{
+    display:block;
+    min-height:100px;
+    width:100%;
+    margin-top:10px;
+    border-radius: 8px;
+}
+
+#submit{
+    display:block;
+    min-height: 20px;
+    text-align: center;
+    width:100%;
+    background-color: black;
+    color:#f5f5f5;
+    border-radius: 8px;
+    cursor:pointer;
+}
