@@ -13,7 +13,7 @@ backButton.addEventListener('click',function (event) {
 let mode = 'light';
 
 // listen for click event on toggle button
-toggleButton.addEventListener('click', function() {
+toggleButton.addEventListener('click', function(event) {
 
     // If mode is light apply dark background and styles by setting class attribute
     if(mode==='light'){
