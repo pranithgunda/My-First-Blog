@@ -8,17 +8,17 @@ Application landing page consists of fields to input user information and the bl
 
 ## Screenshot
 
-![Blog Form](assets\images\BlogForm.png)
+![Blog Form](assets/images/BlogForm.png)
 
-![Blog Posts](assets\images\BlogPosts.png)
+![Blog Posts](assets/images/BlogPosts.png)
 
-![Blog Posts Local Storage](assets\images\BlogPosts_LocalStorage.png)
+![Blog Posts Local Storage](assets/images/BlogPosts_LocalStorage.png)
 
-![Blog Posts Dark Mode](assets\images\BlogPosts_DarkMode.png)
+![Blog Posts Dark Mode](assets/images/BlogPosts_DarkMode.png)
 
 ## Link to deployed site
 
-coming soon
+https://pranithgunda.github.io/My-First-Blog/
 
 
 
