@@ -12,13 +12,14 @@ main{
     display: flex;
     flex-direction: row;
 }
-section{
+#leftsection{
     width:49%;
 }
 #rightsection{
     width:49%;
     border-width:thick;
     border-right-style:double;
+    height:50vw;
 }
 img{
     height:600px;

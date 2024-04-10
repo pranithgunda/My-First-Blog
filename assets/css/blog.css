@@ -18,6 +18,7 @@ span{
     border-radius: 5px;
     background-color: #242424;
     color:#ebebeb;
+    cursor:pointer;
 }
 label{
     width:35px;
@@ -63,21 +64,21 @@ input:checked + label:after {
     background: linear-gradient(180deg, #777,#3a3a3a);
 }
 
-main{
+#blogcontainer{
     display:flex;
     flex-wrap: nowrap;
     flex-direction: column;
 }
 #blogpost{
     height:110px;
-    width:100%;
+    width:95%;
     margin-top:8px;
     border:solid;
     border-color:#242424;
     border-radius:8px;
 }
 
-h8{
+#blogtitle{
     padding:2px;
     font-size: small;
     font-weight: bold;
@@ -100,7 +101,8 @@ h8{
 }
 
 footer{
-    height:1vw;
+
+    padding-top:10px;
     width:100%;
     border-width: thick;
     border-bottom-style: double;
