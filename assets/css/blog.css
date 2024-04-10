@@ -1,3 +1,10 @@
+.dark{
+    background-color: #242424;
+    color:#bebebe;
+    border-color: #bebebe;
+}
+
+
 nav ul{
     display:flex;
     justify-content: space-around;
@@ -99,7 +106,44 @@ input:checked + label:after {
     padding-left:10px;
     font-size: smaller;
 }
+/* styles to apply for dark mode */
+.dark #blogpost{
+    height:110px;
+    width:95%;
+    margin-top:8px;
+    border:solid;
+    border-color:#bebebe;
+    border-radius:8px;
+}
 
+/* styles to apply for dark mode */
+
+.dark #blogtitle{
+    padding:2px;
+    font-size: small;
+    font-weight: bold;
+}
+
+/* styles to apply for dark mode */
+
+.dark #blogcontent{
+    height:80px;
+    width:90%;
+    border-top:solid;
+    border-top-color: #bebebe;
+    margin:0px;
+    text-wrap: wrap;
+}
+
+/* styles to apply for dark mode */
+
+.dark #blogauthor{
+    float:left;
+    margin:-5px;
+    padding-left:10px;
+    font-size: smaller;
+    color:#bebebe;
+}
 footer{
 
     padding-top:10px;
