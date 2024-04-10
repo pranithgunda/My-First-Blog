@@ -19,7 +19,7 @@ submit.addEventListener('click', function (event) {
             content:content.value}
             // Check if Array already exists in localStorage
             const blogPostsArray = JSON.parse(localStorage.getItem('blogPosts'))
-            //If exists push object to Array
+            //If array exists push object to Array
             if(blogPostsArray !== null){
                 blogPosts = blogPostsArray;
                 blogPosts.push(blogPost);
