@@ -2,13 +2,13 @@
 function renderBlogPosts(){
      let blogPosts = [];
      
-     //retrieve blogPosts from localStorage and Parse
+     //retrieve blogPosts from localStorage and Parse array containing objects
      blogPosts = JSON.parse(localStorage.getItem('blogPosts'));
      
      //find blog Container by Id
      const blogContainer = document.getElementById('blogcontainer');
      
-     //loop through the blogPosts
+     //loop through the blogPosts array
      for(let i=0;i<blogPosts.length;i++){
         const userName = blogPosts[i].username;
         const title = blogPosts[i].title;
@@ -16,10 +16,12 @@ function renderBlogPosts(){
         
         // create section element that holds blog Post information
         const section = document.createElement('section');
+        // set id attribute
         section.setAttribute("id","blogpost");
 
         //Set data attribute, to uniquely identify each section
         section.setAttribute("data-index",i);
+        //set innerHTML to dynamically append HTML for each blog post
         section.innerHTML = `<h8 id="blogtitle"></h8>
                          <p id="blogcontent"></p>
                          <span id="blogauthor"></span>      
@@ -46,5 +48,5 @@ function renderBlogPosts(){
                           blogAuthor.textContent =`Posted by user: ${userName}`;
                         }
                     }
-//On load execute function
+//On load execute function, so blog post information is available
 renderBlogPosts();

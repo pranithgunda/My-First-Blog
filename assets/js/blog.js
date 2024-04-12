@@ -5,6 +5,7 @@ const toggleButton = document.getElementById('darklightmode-toggle');
 // navigate back to form on click of back button
 backButton.addEventListener('click',function (event) {
     event.preventDefault();
+    // set location back to form
     location.href = "index.html";
 });
 
