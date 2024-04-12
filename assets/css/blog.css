@@ -1,7 +1,13 @@
+:root{
+    --lightcolor:#bebebe;
+    --darkcolor:#242424;
+}
+
+
 .dark{
-    background-color: #242424;
-    color:#bebebe;
-    border-color: #bebebe;
+    background-color:var(--darkcolor);
+    color:var(--lightcolor);
+    border-color:var(--lightcolor);
 }
 
 
@@ -23,8 +29,8 @@ span{
 
 #back{
     border-radius: 5px;
-    background-color: #242424;
-    color:#ebebeb;
+    background-color:var(--darkcolor);
+    color:var(--lightcolor);
     cursor:pointer;
 }
 label{
@@ -32,7 +38,7 @@ label{
     height:20px;
     position:relative;
     display:block;
-    background:#ebebeb;
+    background:var(--lightcolor);
     border-radius:20px;
     box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px,-5px,15px rgba(255,255,255,0.4);
     cursor:pointer;
@@ -62,7 +68,7 @@ input {
 }
 
 input:checked + label{
-    background: #242424;
+    background: var(--darkcolor);
 }
 
 input:checked + label:after {
@@ -81,7 +87,7 @@ input:checked + label:after {
     width:95%;
     margin-top:8px;
     border:solid;
-    border-color:#242424;
+    border-color:var(--darkcolor);
     border-radius:8px;
 }
 
@@ -95,7 +101,7 @@ input:checked + label:after {
     height:80px;
     width:90%;
     border-top:solid;
-    border-top-color: #242424;
+    border-top-color:var(--darkcolor);
     margin:0px;
     text-wrap: wrap;
 }
@@ -112,7 +118,7 @@ input:checked + label:after {
     width:95%;
     margin-top:8px;
     border:solid;
-    border-color:#bebebe;
+    border-color:var(--lightcolor);
     border-radius:8px;
 }
 
@@ -130,7 +136,7 @@ input:checked + label:after {
     height:80px;
     width:90%;
     border-top:solid;
-    border-top-color: #bebebe;
+    border-top-color: var(--lightcolor);
     margin:0px;
     text-wrap: wrap;
 }
@@ -142,7 +148,7 @@ input:checked + label:after {
     margin:-5px;
     padding-left:10px;
     font-size: smaller;
-    color:#bebebe;
+    color:var(--lightcolor);
 }
 footer{
 
